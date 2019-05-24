@@ -1,0 +1,1701 @@
+/* ////////////////////////////////////////////////////////////////////////// */
+/* FONTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* FONTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.adv_search {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  font-size: 12px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-light .navbar-toggler {
+  border: 0 !important;
+  background-color: #eee !important;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+  color: #1A7BD4 !important;
+}
+
+.form-check-input{
+  margin-top: .2rem !important;
+}
+
+textarea {
+  resize: none;
+}
+
+.p-z {
+  padding: 0;
+}
+
+.highlight {
+  color: #fcaf01 !important;
+}
+
+.highlightl{
+  color: #5D8BCF !important;
+}
+
+.highlight_bg {
+  background-color: #E5842B !important;
+}
+
+.default_bg {
+  background-color: #F0F0F0;
+}
+
+.highlight2 {
+  color: #003574 !important;
+}
+
+.form-control {
+  border: 2px solid rgba(0, 53, 116, 0.2);
+}
+
+.form-control:focus {
+  border-color: rgba(0, 53, 116, 0.4);
+  box-shadow: 0px 0px 5px rgba(0, 53, 116, 0.2);
+}
+
+/* .toTop {
+  padding: 0 15px;
+  background: #30353E;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  display: none;
+  font-size: 2rem;
+  bottom: 20px;
+  cursor: pointer;
+} */
+hr {
+  width: 5%;
+  height: 3px;
+  background-color: #E5842B;
+}
+
+.bb {
+  border-bottom: 1px solid #ddd;
+  width: 80%;
+}
+
+.secondary_bg {
+  background-color: #f6f7f8;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+.tb_spacing {
+  padding: 80px 0;
+}
+
+.smp {
+  font-size: 14px;
+}
+
+.smp2 {
+  font-size: 12px !important;
+}
+
+.gray_p {
+  color: #666;
+}
+
+.mt {
+  margin-top: 125px;
+}
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb h2 {
+  color: #fff;
+}
+
+/* .breadcrumb-item a {
+  color: #fff;
+} */
+
+.breadcrumb-item.active {
+  color: #fcaf01 !important;
+}
+
+
+.page-item.active .page-link {
+  background-color: #003574 !important;
+  border-color: #003574;
+}
+
+.page-link {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.page-link:hover {
+  color: #fff !important;
+  background-color: #aaa;
+}
+
+.btn-regular {
+  font-size: 14px;
+  background-color: #333e48;
+  color: #fff;
+  border-radius: 0;
+}
+
+.bb2 {
+  border: 1px solid rgba(0, 47, 52, .2);
+  border-radius: 4px;
+}
+
+.btn_location {
+  border: 1px solid #18366E;
+  border-radius: 0;
+  border-left: 0;
+}
+
+.w43 {
+  width: 43%;
+}
+
+.w20 {
+  width: 20%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w80{
+  width: 80%;
+}
+
+.social li {
+  display: inline;
+}
+
+.social li a:hover {
+  background-color: #333e48;
+  color: #fff;
+}
+
+.facebook {
+  background-color: #3b5999;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.google {
+  background-color: #fe6d4c;
+}
+
+.youtube {
+  background-color: #cc332d;
+}
+
+.cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-brand img {
+  width: 120px;
+  margin-right: 3rem;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.lst {
+  list-style-type: none;
+}
+
+.border_ul {
+  border: 1px solid #dee2e6;
+  border-top: 0;
+}
+
+.right_menu ul {
+  margin: 0;
+}
+
+.right_menu ul li {
+  display: inline;
+}
+
+.top_menu {
+  padding: 5px 0;
+  font-size: 14px;
+  z-index: 999;
+  background-color: #003574;
+  color: #fff;
+}
+
+.top_menu ul {
+  margin: 0;
+}
+
+.top_menu ul li i {
+  color: #FCAF01;
+  padding-right: 8px;
+}
+
+.top_menu ul li a {
+  color: #fff !important;
+}
+
+.top_menu ul li .fa-heart {
+  color: #ff391a;
+}
+
+.top_menu li {
+  display: inline;
+  font-size: 12px;
+  margin-right: 15px;
+}
+
+.navbar {
+  padding: 3.2rem 0 2rem 0;
+  /* border-bottom: 1px solid #ddd; */
+  z-index: 990;
+  background-color: #fff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, .15) !important;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-expand-lg .navbar-nav {
+  margin-left: 5px !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  padding: 0 .8rem !important;
+  line-height: 20px;
+}
+
+.navbar-nav .nav-link img:hover {
+  opacity: 1;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #003574;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* HEADER CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.cart_dropdown {
+  width: 420px;
+  position: absolute;
+  right: -34px !important;
+  left: auto !important;
+  top: 42px;
+  padding: 10px 8px;
+}
+
+.cart_dropdown .row .col-md-6 p {
+  font-size: 12px;
+}
+
+.cart_dropdown .card-product-hover-price {
+  font-size: 14px !important;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* HEADER CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* SEARCH CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.navbar .search {
+  width: 81%;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .search .dropdown-menu {
+  font-size: 12px;
+  margin: 0;
+  width: 165px;
+  border-radius: 0 !important;
+}
+
+.navbar .search .form-control {
+  font-size: 12px;
+  border: 1px solid #00306A;
+  border-left: 0;
+}
+
+.navbar .search .btn-default {
+  border-radius: 0;
+  line-height: 24px;
+  font-size: 12px;
+  border: 1px solid #00306A;
+}
+
+.search_btn {
+  border-radius: 0;
+  background-color: #00306A;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* SEARCH CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* SLIDER_CONTENT CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.slider_content {
+  margin-top: 140px;
+}
+
+.slider_content .col-md-2 ul li {
+  display: block;
+}
+
+#owl-demo .owl-carousel button.owl-dot {
+  display: none;
+}
+
+.slider_content .categories ul li {
+  padding: 5px 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.slider_content .categories ul li:hover {
+  background-color: #fcaf01;
+}
+
+.slider_content .categories ul li:hover a {
+  color: #fff;
+}
+
+#owl-demo .item {
+  overflow: hidden;
+  height: 422px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  background: #333e48;
+  position: absolute;
+  top: 40%;
+  width: 25px;
+  font-size: 2.5rem;
+  color: #fff;
+  filter: opacity(0.4);
+  transition: 0.2s ease-out;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+  filter: opacity(0.6);
+  width: 38px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  background: #333e48;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 25px;
+  font-size: 2.5rem;
+  color: #fff;
+  filter: opacity(0.4);
+  transition: 0.2s ease-out;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+  filter: opacity(0.6);
+  width: 38px;
+}
+
+.slider_content .col-md-2 .row .col-md-12 div {
+  padding: 10px 30px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* SLIDER_CONTENT CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_INFO CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.featured_ul li {
+  display: inline;
+}
+
+.layout_first {
+  padding: 0 4px;
+}
+
+.layout_second .card-product-hover {
+  height: 220px;
+}
+
+.layout_second .card-product-hover-price {
+  font-size: .9rem;
+}
+
+.layout_second .card-product-hover-price i {
+  line-height: 2;
+}
+
+.product_info .help {
+  margin-top: 26px;
+}
+
+.product_info .help ul li {
+  padding: 4.5px 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.title_bg {
+  font-family: "Poppins", sans-serif;
+  background-color: #003574;
+  padding: 9px;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title_bg2 {
+  border-bottom: 0 !important;
+  border: 1px solid #ddd;
+  padding: 9px;
+  margin: 0;
+  font-size: 16px;
+}
+
+.product_info .nav-tabs {
+  /* background-color: #EAEDF6; */
+  border-bottom: 0 !important;
+}
+
+.product_info .nav-tabs .nav-link {
+  /* border-bottom: 2px solid #ddd; */
+  padding: 0.5rem 0;
+}
+
+.related_products {
+  background-color: #eaedf6;
+}
+
+.product_single .product_img {
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.product_single select {
+  width: 16%;
+  border-radius: 0;
+  height: 30px;
+  padding: 1px;
+}
+
+.product_info .nav-tabs .nav-link {
+  border-radius: 0;
+  border: 2px solid transparent;
+}
+
+.product_info .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  border-radius: 20px;
+  border: 2px solid #003574;
+}
+
+.product_info .nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  border-radius: 20px;
+  border: 2px solid rgba(51, 62, 72, 0.09);
+}
+
+.product_info .owl-carousel .owl-nav button.owl-prev {
+  left: -2.5%;
+}
+
+.product_info .owl-carousel .owl-nav button.owl-next {
+  right: -2.5%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_INFO CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_CARD CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.product_img {
+  width: 80% !important;
+  margin: auto;
+}
+
+.card {
+  border: 0;
+}
+
+.card-product-hover-title {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.card-product-hover {
+  position: relative;
+  line-height: 1.8rem;
+  transition: all 0.35s ease;
+  border: 1px solid rgba(0, 47, 52, .2);
+  height: 295px;
+}
+
+.card-product-hover:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.card-product-hover:hover .product_img {
+  filter: opacity(0.4);
+}
+
+.card-product-hover-details {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding: 1rem;
+  /* border-top: 1px solid #eee; */
+}
+
+.card-product-hover-details small {
+  font-size: 11px;
+}
+
+.card-product-hover-details> :last-child {
+  margin-bottom: 0;
+}
+
+.card-product-hover-price {
+  margin: 0.5rem 0;
+  font-weight: 700;
+  color: #003574;
+  font-size: 1.2rem;
+}
+
+.card-product-hover-intial-price {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.card-product-hover-icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.card-product-hover-icons a {
+  text-decoration: none;
+}
+
+.card-product-hover-icons a i {
+  display: block;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  background-color: #fff;
+  text-align: center;
+  color: #333e48;
+  /* border-radius: 50%; */
+  margin: auto;
+  box-shadow: 2px 2px 8px #333e48;
+  opacity: 0.6;
+}
+
+.card-product-hover-icons a i:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #E5842B;
+  color: #111;
+}
+
+.wishlist-icons a i {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  background-color: #fff;
+  text-align: center;
+  color: #333e48;
+  border-radius: 50%;
+  margin: 0 4px;
+  border: 1px solid #ddd;
+}
+
+.wishlist-icons a i:hover {
+  box-shadow: 4px 4px 8px #333e48;
+  border: 0;
+}
+
+.card-product-hover-icons a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  transition: all 0.35s ease;
+}
+
+.card-product-hover:hover a,
+.card-product-hover.hover a {
+  transition: all 0.35s ease;
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.card-product-hover:hover a:nth-child(2),
+.card-product-hover.hover a:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.card-product-hover:hover a:nth-child(3),
+.card-product-hover.hover a:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_CARD CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ADS CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.ad1 {
+  width: 82%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ADS CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* RECENT CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.recent .col-md-2 ul li {
+  padding: 5px 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.recent .col-md-2 ul li i {
+  color: #00cb5b;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* RECENT CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PROCESS CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.process ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.process ul li i {
+  font-size: 2rem;
+  padding: 12px 0;
+  color: #00cb5b;
+}
+
+.process ul li p {
+  font-size: 14px;
+}
+
+.process ul li small {
+  color: #777;
+  font-size: 0.7rem;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PROCESS CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* NEWSLETTER CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.newsletter {
+  background-color: #E5842B;
+  padding: 10px 0;
+}
+
+.newsletter .input-group>.form-control {
+  padding: 10px 14px;
+  border-radius: 0;
+}
+
+.subscribe_btn {
+  border-radius: 20px 20px 20px 0;
+  padding: 0 18px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* FOOTER CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* FOOTER CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+footer {
+  background-color: #111;
+  padding-top: 80px;
+}
+
+footer h5 {
+  color: #fff;
+}
+
+footer p {
+  color: #6d757d;
+}
+
+.social ul li a {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+footer ul li {
+  margin: 10px 0;
+  color: #6d757d;
+}
+
+footer ul li a {
+  color: #6d757d;
+}
+
+footer .social li {
+  display: inline;
+}
+
+.subfooter {
+  border-top: 1px solid #6d757d;
+  padding: 1px 0;
+}
+
+.subfooter a {
+  color: #fcaf01 !important;
+}
+
+.midfooter {
+  border-top: 1px solid #6d757d;
+  font-size: 12px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* FOOTER CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ABOUT CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.ml {
+  margin-left: 8rem !important;
+}
+
+.about .col-md-4 h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.about .col-md-4 img {
+  opacity: 0.7;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ABOUT CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* CONTACT CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.contact .btn-regular {
+  width: 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* CONTACT CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* BLOG CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.blog .col-md-9 ul li {
+  font-size: 14px !important;
+}
+
+.blog .col-md-9 p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.blog .col-md-3 .col-md-7 h6 {
+  font-size: 14px;
+}
+
+.blog .col-md-3 .inside {
+  border: 1px solid #ccc;
+  padding: 0 14px;
+}
+
+.blog .col-md-3 .col-md-7 li {
+  font-size: 12px;
+}
+
+.blog_single .col-md-9 .col-md-2 img {
+  border-radius: 50%;
+}
+
+.blog_single .col-md-9 .col-md-10 .comment {
+  background-color: #eee;
+  padding: 20px 16px 6px 16px;
+  border-radius: 10px;
+}
+
+.blog_single .col-md-9 .col-md-10 .my_commment {
+  border: 1px solid #ddd;
+  background: none;
+}
+
+.blog_single .col-md-9 .col-md-10 .my_commment::before {
+  content: "";
+  border: 0;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff !important;
+}
+
+.blog_single .col-md-9 .col-md-10 .reply {
+  background-color: #f8f8f8;
+}
+
+.blog_single .col-md-9 .col-md-10 .comment::before {
+  content: "";
+  background-color: #eee;
+  display: block;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 5px;
+  top: 30px;
+}
+
+.blog_single .col-md-9 .col-md-10 .reply::before {
+  background-color: #f8f8f8;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* BLOG CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* USERDASHBOARD CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.userdashboard {
+  margin-top: 60px;
+}
+
+.posting .form-control {
+  border: 0;
+  border-bottom: 2px solid rgba(0, 53, 116, 0.2);
+  color: #333 !important;
+}
+
+.posting .nav-fill .nav-item{
+  width: 30vw;
+}
+
+.posting .form-control:focus {
+  /* borderbottom-color: rgba(0, 53, 116, 0.4);
+  box-shadow: 0px 0px 5px rgba(0, 53, 116, 0.2); */
+  box-shadow: none;
+}
+
+.posting .col-md-10 .title {
+  font-size: 16px;
+}
+
+.posting .col-md-10 {
+  font-size: 13.5px;
+}
+
+.default_icon {
+  font-size: 2.5rem;
+}
+
+.userdashboard .col-md-10 {
+  padding: 0 40px 30px 40px;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+}
+
+.posting .col-md-10 .form-check-input {
+  width: auto !important;
+}
+
+.posting .col-md-10 input, .posting .col-md-10 textarea {
+  width: 80%;
+}
+
+.userdashboard .col-md-10 .details {
+  font-size: 16px;
+}
+
+.tab {
+  width: 100%;
+}
+
+.tab li {
+  display: block;
+  background-color: inherit;
+  padding: 12px 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Change background color of buttons on hover */
+.tab li:hover {
+  /* background-color: rgba(0, 203, 91, .08); */
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* USERDASHBOARD CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_DETAILS CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.product_details select {
+  width: 12%;
+  border-radius: 0;
+  height: 30px;
+  padding: 1px 8px;
+}
+
+.product_details .row .col-md-3 ul li {
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  padding: 5px 8px;
+}
+
+.right_col ul li {
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  padding: 5px 8px;
+}
+
+.product_details .nav-fill .nav-item {
+  flex: none !important;
+}
+
+ .nav-tabs .nav-link:focus {
+  border-radius: 0;
+}
+
+.product_details .table {
+  width: 500px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_DETAILS CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* VENDOR_PROFILE CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.vendor_profile select {
+  width: 18%;
+  font-size: 12px;
+}
+
+.vendor_profile .col-md-2 ul li {
+  /* border-bottom: 1px solid #dee2e6; */
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* VENDOR_PROFILE CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* VIEW SWITCH CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* Main container */
+.cbp-vm-switcher {
+  /* padding: 20px; */
+  /* border: 3px solid #47a3da; */
+}
+
+/* options/select wrapper with switch anchors */
+.cbp-vm-options {
+  text-align: right;
+  margin-top: 20px;
+  /* border-bottom: 3px solid #47a3da; */
+}
+
+.cbp-vm-options a {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 6px;
+}
+
+.cbp-vm-options a:before {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* General style of switch items' list */
+.cbp-vm-switcher ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+/* Clear eventual floats */
+.cbp-vm-switcher ul:before,
+.cbp-vm-switcher ul:after {
+  content: " ";
+  display: table;
+}
+
+.cbp-vm-switcher ul:after {
+  clear: both;
+}
+
+.cbp-vm-switcher ul li {
+  display: block;
+  position: relative;
+}
+
+.cbp-vm-switcher ul li:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.cbp-vm-image {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.cbp-vm-image img {
+  display: inline-block;
+  max-width: 100%;
+  border: none;
+}
+
+.cbp-vm-title {
+  margin: 0;
+  padding: 0;
+}
+
+.cbp-vm-price {
+  color: #003574;
+}
+
+.cbp-vm-add:hover {
+  color: #fff;
+  background: #02639d;
+}
+
+.cbp-vm-add:before {
+  margin-right: 5px;
+}
+
+/* Common icon styles */
+.cbp-vm-icon:before {
+  font-family: 'fontawesome';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cbp-vm-grid:before {
+  content: "\f00a";
+}
+
+.cbp-vm-list:before {
+  content: "\f00b";
+}
+
+.cbp-vm-add:before {
+  content: "\f055";
+}
+
+/* Individual view mode styles */
+/* Large grid view */
+.cbp-vm-view-grid ul {
+  text-align: left;
+}
+
+.cbp-vm-view-grid ul li {
+  width: 24%;
+  text-align: left;
+  padding: 0 16px;
+  margin: 20px 0 0;
+  display: inline-block;
+  height: 290px;
+  vertical-align: top;
+}
+
+.cbp-vm-view-grid ul li:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.cbp-vm-view-grid .cbp-vm-title {
+  font-size: 13px;
+}
+
+.cbp-vm-view-grid .cbp-vm-details {
+  max-width: 300px;
+  min-height: 70px;
+  margin: 0 auto;
+  font-size: 12px;
+  display: none;
+}
+
+.cbp-vm-view-grid .btn-regular {
+  width: 100%;
+}
+
+.cbp-vm-view-grid .cbp-vm-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* List view */
+.cbp-vm-view-list li {
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cbp-vm-view-list .cbp-vm-image {
+  width: 10%;
+}
+
+.cbp-vm-view-list .cbp-vm-title {
+  padding: 0 10px;
+  white-space: normal;
+  width: 20%;
+  font-size: 13px;
+}
+
+.cbp-vm-view-list .cbp-vm-price {
+  font-size: 1.3em;
+  /* width: 10%; */
+}
+
+.cbp-vm-view-list .cbp-vm-details {
+  width: 40%;
+  padding: 0 30px;
+  overflow: hidden;
+  white-space: normal;
+  font-size: 12px;
+}
+
+.cbp-vm-view-list .cbp-vm-add {
+  margin: 0;
+}
+
+@media screen and (max-width: 66.7em) {
+  .cbp-vm-view-list .cbp-vm-details {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 57em) {
+  .cbp-vm-view-grid ul li {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 47.375em) {
+  .cbp-vm-view-list .cbp-vm-image {
+    width: 20%;
+  }
+
+  .cbp-vm-view-list .cbp-vm-title {
+    width: auto;
+  }
+
+  .cbp-vm-view-list .cbp-vm-details {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .cbp-vm-view-list .cbp-vm-add {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 40.125em) {
+  .cbp-vm-view-grid ul li {
+    width: 100%;
+  }
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* VIEW SWITCH CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCOUNT SELECTION CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.account_selection {
+  margin: 3% 0;
+}
+
+.account_selection .custom-select {
+  height: auto;
+}
+
+.form {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 4px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
+}
+
+.header2 {
+  background-color: #fff;
+}
+
+.header2 .btn-default {
+  background-color: #E5842B;
+  color: #fff;
+  border-radius: 0;
+}
+
+.footer2 {
+  background-color: #eee;
+  padding: 20px 0 0 0;
+}
+
+.opacity_img {
+  filter: opacity(.5);
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCOUNT SELECTION CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCOUNT LOGIN CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCOUNT LOGIN CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* VERIFY_INFO CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.verify_info {
+  padding: 80px 0;
+}
+
+.verify_info .content {
+  background-color: rgba(24, 54, 110, .2);
+  padding: 30% 0;
+  cursor: pointer;
+}
+
+.verify_info .content:hover {
+  background-color: rgba(24, 54, 110, .5);
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* VERIFY_INFO CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* CART_SINGLE CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.cart_single {
+  margin: 200px 0;
+}
+
+.cart_single .input-group>.form-control {
+  font-size: 12px;
+  border: 1px solid #eee !important;
+}
+
+.input-number {
+  width: 50px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+  font-size: 12px;
+}
+
+.input-number,
+.input-number-decrement,
+.input-number-increment {
+  border: 1px solid #ccc;
+  height: 32px;
+  user-select: none;
+}
+
+.input-number-decrement,
+.input-number-increment {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-number-decrement {
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.input-number-increment {
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* CART_SINGLE CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.sponsor .row .col-md-10 .col-md-4 ul:hover {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_SINGLE_PAGE CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.product_single_page {
+  margin: 200px 0 0 0;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* PRODUCT_SINGLE_PAGE CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+/* BACKTOTOP CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+.totop {
+  position: fixed;
+  top: 18%;
+  left: 45%;
+  cursor: pointer;
+  display: none;
+  background: #fff;
+  color: #E5842B;
+  border-radius: 25px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  font-size: 12px;
+  z-index: 999;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .15);
+}
+
+.totop i {
+  font-size: 16px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* BACKTOTOP CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* CATEGORY MENU CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+.select_category {
+  margin: 200px 0 40px 0;
+}
+
+.megadrop .row .col-md-4 h6 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.megadrop .row .col-md-4 ul li {
+  padding: 5px 0;
+}
+
+.menu-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.menu {
+  width: 300px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  position: relative;
+  padding: 0 0 0 4px;
+  margin: 0;
+  background-color: #F0F0F0;
+}
+
+.menu a, .menu a:link, .menu a:visited, .menu a:focus, span {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #227087;
+  text-decoration: none;
+}
+
+.menu>li {
+  display: block;
+  text-align: left;
+  margin-left: -4px;
+  border: 1px solid transparent;
+}
+
+.menu>li>a {
+  padding: 20px 18px;
+  display: block;
+}
+
+.menu>li:hover>a:hover {
+  color: #444 !important;
+}
+
+.menu>li:hover {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 5px solid #E5842B;
+}
+
+/* Megadrop width dropdown */
+.menu>li>.megadrop {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  list-style: none;
+  top: 0px;
+  left: 298px;
+  width: 700px;
+  min-height: 100%;
+  text-align: left;
+  margin-top: 30px;
+  padding: 0;
+  z-index: 99;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-left: 0;
+}
+
+.menu>li:hover .megadrop {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0px;
+}
+
+.menu ul li:hover:after {
+  color: #227087;
+}
+
+.menu>li>ul li ul, .menu li>ul li, .menu>li>.megadrop, .menu>li>ul, .menu>li {
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-outs;
+}
+
+.slider_content .menu{
+  width: 100%;
+}
+
+.slider_content .menu > li > .megadrop{
+  left: 194px;
+}
+
+.slider_content .menu > li > a{
+  padding: 10px;
+}
+
+.slider_content .menu{
+   font-size: 12px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* CATEGORY MENU CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* MODAL VIEW MENU CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+    .view-modal{
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .view-modal .modal-header{
+      border: 0;
+      padding: .5rem 1rem;
+    }
+
+    .view-modal .modal-content{
+      border-radius: 0;
+    }
+
+    .quantity {
+  position: relative;
+  top: -22px;
+  left: 32px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.quantity input {
+  width: 80px;
+  height: 24px;
+  line-height: 1.65;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  padding-left: 8px;
+  border: 1px solid #eee;
+}
+
+.quantity input:focus {
+  outline: 0;
+}
+
+.quantity-nav {
+  float: left;
+  position: relative;
+  height: 42px;
+}
+
+.quantity-button {
+  position: relative;
+  cursor: pointer;
+  border-left: 1px solid #eee;
+  width: 20px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  line-height: 1.7;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-button.quantity-up {
+  position: absolute;
+  height: 56%;
+  top: 0;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.quantity-button.quantity-down {
+  position: absolute;
+  height: 56%;
+  background: #fff;
+  border: 1px solid #eee;
+  top: 0;
+  right: 0;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* MODAL VIEW MENU CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
