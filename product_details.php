@@ -57,18 +57,17 @@
       </div>
 
       <div class="col-md-3 p-z mt-4">
-        <div class="title_bg text-center"><i class="fas fa-info-circle"></i> Additional Info</div>
+        <div class="title_bg text-center"><i class="fas fa-info-circle"></i> Sellers Info</div>
         <ul class="lst smp border_ul">
-          <li class="text-center">Sold By: <a href="#">
-              <h6>Top Collection Enterprises</h6>
-            </a>
-            <a href="vendor_profile.php"><u>VIEW COMPANY PROFILE</u></a>
+          <li class="text-center"><a href="#"><img src="img/company/company.png" alt="" width="50%"></a>
+            <!-- <a href="vendor_profile.php"><u>VIEW COMPANY PROFILE</u></a> -->
           </li>
-          <li class="mt-1">Availability: In Stock</li>
+          <li class="mt-1">Member Since: <span>July 2015</span></li>
+          <li class="mt-1">Member Since: <span>July 2015</span></li>
           <li class="mt-1">Category: <a href="#">Mobile Phones</a></li>
           <li class="mt-1">Condition: <a href="#">Brand New</a></li>
-          <li class="mt-1">Home Delivery: Yes</li>
-          <li class="mt-1">Delivery Area: Within Kathmandu</li>
+          <li class="mt-1">Home Delivery: <span>Yes</span></li>
+          <li class="mt-1">Delivery Area: <span>Within Kathmandu</span></li>
           <li class="mt-1">Warranty Type: <a href="#">Manufacturer/Importer</a></li>
         </ul>
       </div>
@@ -240,7 +239,6 @@
       </div>
     </section>
   </div>
-
 </section>
 
 <?php include 'inc/footer.php'; ?>

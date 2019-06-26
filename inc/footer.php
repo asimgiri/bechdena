@@ -82,7 +82,7 @@
           <p>Copyright © 2019 Bechdena. All rights reserved.</p>
         </div>
         <div class="col-md-6 text-right">
-          <p>Developed By: <a href="https://nextaussie.com/">Next Aussie Tech</a></p>
+          <p>Designed & Developed By: <a href="https://nextaussie.com/">Next Aussie Tech</a></p>
         </div>
       </div>
     </div>
@@ -100,44 +100,46 @@
 <script src="js/cbpViewModeSwitch.js"></script>
 <script src="js/classie.js"></script>
 
+
 <script src="js/setup.js"></script>
 <script src="js/totop.min.js"></script>
+<script src="js/script.js"></script>
 
+<!-- SPINNER -->
 <script type="text/javascript">
-jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
-jQuery('.quantity').each(function() {
-var spinner = jQuery(this),
-  input = spinner.find('input[type="number"]'),
-  btnUp = spinner.find('.quantity-up'),
-  btnDown = spinner.find('.quantity-down'),
-  min = input.attr('min'),
-  max = input.attr('max');
+  jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
+  jQuery('.quantity').each(function() {
+    var spinner = jQuery(this),
+      input = spinner.find('input[type="number"]'),
+      btnUp = spinner.find('.quantity-up'),
+      btnDown = spinner.find('.quantity-down'),
+      min = input.attr('min'),
+      max = input.attr('max');
 
-btnUp.click(function() {
-  var oldValue = parseFloat(input.val());
-  if (oldValue >= max) {
-    var newVal = oldValue;
-  } else {
-    var newVal = oldValue + 1;
-  }
-  spinner.find("input").val(newVal);
-  spinner.find("input").trigger("change");
-});
+    btnUp.click(function() {
+      var oldValue = parseFloat(input.val());
+      if (oldValue >= max) {
+        var newVal = oldValue;
+      } else {
+        var newVal = oldValue + 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
 
-btnDown.click(function() {
-  var oldValue = parseFloat(input.val());
-  if (oldValue <= min) {
-    var newVal = oldValue;
-  } else {
-    var newVal = oldValue - 1;
-  }
-  spinner.find("input").val(newVal);
-  spinner.find("input").trigger("change");
-});
+    btnDown.click(function() {
+      var oldValue = parseFloat(input.val());
+      if (oldValue <= min) {
+        var newVal = oldValue;
+      } else {
+        var newVal = oldValue - 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
 
-});
+  });
 </script>
-
 <script type="text/javascript">
   (function() {
 
@@ -181,62 +183,7 @@ btnDown.click(function() {
 
   inputNumber($('.input-number'));
 </script>
-
-<script type="text/javascript">
-  $(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
-
-  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-  window.onscroll = function() {
-    scrollFunction()
-  };
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar").style.padding = "1.4rem 0";
-      document.getElementById('top_menu').style.display = "none";
-      document.getElementById('navbar').style.boxShadow = "0 0 8px 1px rgba(0, 0, 0, 0.2)";
-      // document.getElementById("logo").style.fontSize = "25px";
-    } else {
-      document.getElementById("navbar").style.padding = "3.2rem 0 2rem 0";
-      document.getElementById('top_menu').style.display = "block";
-      document.getElementById('navbar').style.boxShadow = "none";
-      // document.getElementById("logo").style.fontSize = "35px";
-    }
-  }
-
-  $(document).ready(function() {
-
-    $("#owl-demo").owlCarousel({
-
-      // autoplay: true,
-      loop: true,
-      nav: true, // Show next and prev buttons
-      slideSpeed: 300,
-      paginationSpeed: 400,
-
-      items: 1,
-      itemsDesktop: false,
-      itemsDesktopSmall: false,
-      itemsTablet: false,
-      itemsMobile: false
-
-    });
-
-  });
-</script>
-
-
-
-<script>
-  $('.totop').tottTop({
-    scrollTop: 2000
-  });
-</script>
-
-
-
+<!-- SPINNER -->
 
 
 </body>

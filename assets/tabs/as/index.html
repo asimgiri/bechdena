@@ -1,0 +1,257 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<body>
+<link href="bootstrap.min.css" type="text/css" rel="stylesheet">
+ <link href="owl.theme.css type="text/css" rel="stylesheet">
+ <link href="owl.carousel.css" type="text/css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.js" type="text/javascript"></script>
+<script src="bootstrap.min.js" type="text/javascript"></script>
+ <script src="owl.carousel.js" type="text/x-javascript"></script>
+ <script src="https://use.fontawesome.com/bb7d217089.js"></script>
+ <style>
+ .moniter-shoot {
+    background-color: #3153a0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.moniter-shoot h1 {
+    font-size: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Lato Semibold;
+    padding: 30px 0px;
+    margin: 0px;
+}
+
+
+ #owl-demo .owl-item > div img {
+    display: block;
+    width: 100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:4px;
+}
+#owl-demo .owl-item > div {
+    padding: 0px 2px
+}
+
+.hide {
+    display: none;
+}
+
+.customNavigation{
+  text-align: center;
+}
+
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.owl-pagination .active span {background:#7ac143 !important;}
+
+ .owl-demo1   .project img{
+     width: 280px;
+    height: 212px;}
+.owl-demo1 {overflow:hidden;}
+.owl-demo1 .owl-wrapper-outer{height: 203px;}
+.owl-demo1 .item {
+  background: #292732;
+  padding: 12px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.owl-demo1 .owl-buttons div {
+  margin:0px !important;
+  border-radius:0px !important;
+    padding: 10px 30px !important; }
+
+
+.owl-demo1 .owl-buttons .owl-prev ,   .owl-demo1 .owl-buttons .owl-next{
+    position:relative;
+    background-color: transparent !important;
+    width: 81px;
+    padding: 11px !important;
+    }
+
+.owl-demo1 .owl-buttons .owl-prev:hover , .owl-demo1 .owl-buttons .owl-next:hover{background-color: transparent;}
+.owl-demo1 .owl-buttons .owl-prev:after {
+        content: "";
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    border-bottom: 0px solid #143582;
+    border-right: 32px solid transparent;
+    border-left: 64px solid #143582;
+    border-top: 71px solid #143582;
+    z-index: -1;
+    }
+
+
+.owl-demo1 .owl-buttons .owl-next:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    border-right: 64px solid #143582;
+    border-bottom: 71px solid #143582;
+    border-left: 32px solid transparent;
+      z-index: -1;
+
+    }
+
+ #project-terms {
+    background-color:#143582;
+    margin-bottom: 15px;
+    text-align: center;}
+
+#project-terms a {
+        position: relative;
+    display: inline-block;
+    width: 121px;
+    padding: 13px;
+        margin-left: -3px;
+    text-decoration: none;
+        font-family: 'Lato Medium';
+    text-transform: uppercase;
+    }
+   #project-terms a.active:after {background-color: #264794;}
+      #project-terms a.active span { border-bottom: 2px solid #7ac143;}
+.mont-cat span {
+        position: inherit;
+    z-index: 10;
+    color: #fff;}
+#project-terms .mont-cat:after {
+    content: "";
+    width: 100%;
+    height: auto;
+    -webkit-transform: skew(-32deg);
+    -moz-transform: skew(-32deg);
+    -o-transform: skew(-32deg);
+    background: #143582;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+        border-left: 1px solid;
+
+    }
+
+ </style>
+ <script>
+$(document).ready(function() {
+
+  var owl = $(".owl-demo1");
+
+  owl.owlCarousel({
+   loop: false,
+     items: 4,
+     navigation : true,
+
+  stopOnHover : true,
+  navigationText: [
+      "<i class='fa fa-angle-left'></i>",
+      "<i class='fa fa-angle-right'></i>"
+      ],
+  });
+    });
+  </script>
+ <script>
+ $(document).ready(function () {
+    var options = {
+        navigation: true,
+        pagination: true
+    };
+    $(".owl-demo1").owlCarousel(options);
+
+    function showProjectsbyCat(cat) {
+        var owl = $(".owl-demo1").data('owlCarousel');
+
+        owl.addItem('<div/>', 0);
+
+        var nb = owl.itemsAmount;
+        for (var i = 0; i < (nb - 1); i++) {
+            owl.removeItem(1);
+        }
+
+        if (cat == 'all') {
+            $('#projects-copy .project').each(function () {
+                owl.addItem($(this).clone());
+            });
+        } else {
+            $('#projects-copy .project.' + cat).each(function () {
+                owl.addItem($(this).clone());
+            });
+        }
+        owl.removeItem(0);
+    }
+    $('.owl-demo1 .project').clone().appendTo($('#projects-copy'));
+    $('#project-terms a').click(function (e) {
+        e.preventDefault();
+        $('#project-terms a').removeClass('active');
+
+        cat = $(this).attr('ID');
+        $(this).addClass('active');
+        showProjectsbyCat(cat);
+    });
+});
+ </script>
+ <div class="col-md-12 col-sm-12 col-xs-12 moniter-shoot">
+              <h1 style="">MONITORING SCREENSHOTS</h1>
+
+  <div class="container">
+         <div id="project-terms">
+
+             <a id="all" class="active mont-cat" href="#"><span>ALL</span></a>
+             <a id="cat1" class="mont-cat" href="#"><span>CAT1</span></a>
+             <a id="cat2" class="mont-cat" href="#"><span>CAT2</span></a>
+             <a id="cat3" class="mont-cat" href="#"><span>CAT3</span></a>
+
+            </div>
+
+	<div id="" class="owl-carousel owl-demo1">
+	    <div class="project cat1">
+	        <img src="images/sc-1.jpg" alt="" />
+	    </div>
+
+	    <div class="project cat2">
+	        <img src="images/sc-2.jpg" alt="" />
+	    </div>
+	    <div class="project cat2">
+	        <img src="images/sc-2.jpg" alt="" />
+	    </div>
+
+	    <div class="project cat3">
+	        <img src="images/sc-3.jpg" alt="" />
+	    </div>
+	     <div class="project cat3">
+	        <img src="images/sc-3.jpg" alt="" />
+	    </div>
+	     <div class="project cat3">
+	        <img src="images/sc-3.jpg" alt="" />
+	    </div>
+	</div>
+<div id="projects-copy" class="hide"></div>
+</div>
+
+</div>
+
+<h1>See more plugin : <a href="http://jqueryshare.net/" target="_blank">jqueryshare.net</a></h1>
+</body>
+</html>

@@ -32,6 +32,9 @@
 
   <link rel="stylesheet" type="text/css" href="css/default.css" />
   <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" href="css/simpletab.min.css">
+  <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+  <script src="js/simpletab.min.js"></script>
 
   <title>Bechdena</title>
 </head>
@@ -85,7 +88,7 @@
               </div>
             </div>
             <button type="button" name="button" class="btn btn_location"><img src="img/icons/crosshair.png" alt="" width="14px"></button>
-            <input type="text" class="form-control" placeholder="Search for various products..." aria-label="ProductName" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" placeholder="Search for Cars, Bikes, Jobs, Services, Industries, Real Estate and many more..." aria-label="ProductName" aria-describedby="basic-addon1">
             <div class="input-group-append">
               <a href=""><button type="button" name="button" class="btn btn-regular search_btn"><i class="fas fa-search"></i></button></a>
             </div>
@@ -161,7 +164,7 @@
               </ul>
             </div>
           </li>
-          <li class="d-inline"><a href="select_category.php"><button type="button" name="button" class="btn rounded-0 px-4 highlight_bg smp">Sell Products</button></a></li>
+          <li class="d-inline"><a href="select_category.php"><button type="button" name="button" class="btn rounded-0 post_btn px-4 highlight_bg smp"><i class="fas fa-thumbtack mr-2"></i> Post an Ad</button></a></li>
         </div>
       </div>
     </nav>

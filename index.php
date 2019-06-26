@@ -1,9 +1,6 @@
 <?php include 'inc/header.php'; ?>
 
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="startupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog view-modal" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -12,50 +9,17 @@
         </button>
       </div>
       <div class="modal-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5">
-              <!-- magnific start -->
-              <div id="">
-                <div class="xzoom-container">
-                  <a href="product_details.php"><img class="xzoom5" id="" src="img/gallery/preview/p1.jpg" xoriginal="" /></a>
-                  <div class="xzoom-thumbs">
-                    <a href=""><img class="xzoom-gallery5" width="76" src="img/gallery/thumbs/p1.jpg" xpreview="img/gallery/preview/p1.jpg" title="The description goes here"></a>
-                    <a href=""><img class="xzoom-gallery5" width="76" src="img/gallery/thumbs/p6.jpg" xpreview="img/gallery/preview/p6.jpg" title="The description goes here"></a>
-                    <a href=""><img class="xzoom-gallery5" width="76" src="img/gallery/preview/03_r_car.jpg" title="The description goes here"></a>
-                    <a href=""><img class="xzoom-gallery5" width="76" src="img/gallery/preview/04_g_car.jpg" title="The description goes here"></a>
-                    <a href=""><img class="xzoom-gallery5" width="76" src="img/gallery/thumbs/p1.jpg" xpreview="img/gallery/preview/p1.jpg" title="The description goes here"></a>
-                  </div>
-                </div>
-              </div>
-              <!-- magnific end -->
-            </div>
-            <div class="col-md-6 ml-4">
-              <a href="product_details.php"><h5>Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5></a>
-              <p class="text-justify smp">More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new iPod classic lets you enjoy up to 40,000 songs or... </p>
-              <h2 class="highlight2">Rs. 1,75,000
-                <span class="wishlist-icons float-right">
-                  <a href="#"><i class="fa fa-heart text-danger" data-toggle="tooltip" data-placement="bottom" title="Wishlist"></i></a>
-                  <a href="#"><i class="fas fa-share-alt" data-toggle="tooltip" data-placement="bottom" title="Share"></i></a>
-                </span></h2>
-              <ul class="lst smp">
-                <li>Brand: <a href="#">Xiaomi</a></li>
-                <li class="mt-2">Availability: <a href="#" class="highlightl"><i class="far fa-check-square"></i> In Stock</a></li>
-                <li class="mt-2">Category: <a href="#">Mobile Phones</a></li>
-                <li class="mt-2">Qty:
-                  <div class="quantity">
-                  <input type="number" min="1" max="9" step="1" value="1">
-               </div>
-             </li>
-              </ul>
-              <br>
-
-              <a href=""><button type="button" name="button" class="btn btn-regular px-4">Buy Now</button></a>
-              <a href=""><button type="button" name="button" class="btn btn-regular px-4">Add To Cart</button></a>
-
-
-            </div>
-
+        <div class="container text-center">
+          <h6 class="border-bottom pb-3"><img src="img/icons/pointer2.png" alt="" width="20px" class="mr-2">Select Your City</h6>
+          <div class="row pb-4">
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
           </div>
         </div>
       </div>
@@ -514,184 +478,6 @@
             </div>
 
           </li>
-          <li> <a href="#"><i class="fas fa-book  mr-2"></i>Education & Training</a>
-
-            <div class="megadrop">
-
-
-              <div class="row px-5">
-                <div class="col-md-4 mt-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 mt-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 my-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 mt-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 my-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 my-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-
-          </li>
-          <li> <a href="#"><i class="fas fa-dog  mr-2"></i>Pets & Pet Care</a>
-
-            <div class="megadrop">
-
-
-              <div class="row px-5">
-                <div class="col-md-4 mt-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 mt-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 my-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 mt-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 my-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-                <div class="col-md-4 my-4">
-                  <h6>Home Appliances</h6>
-                  <div class="bb w100"></div>
-                  <ul class="lst">
-                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
-                    <li><a href="" class="smp2">Washing Machines</a></li>
-                    <li><a href="" class="smp2">Air Coolers</a></li>
-                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
-                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
-                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
-                  </ul>
-                </div>
-              </div>
-
-            </div>
-
-          </li>
           <li> <a href="#"><i class="fas fa-hotel  mr-2"></i>Real Estate</a>
 
             <div class="megadrop">
@@ -779,6 +565,96 @@
               </div>
 
             </div>
+
+          </li>
+          <li> <a href="#"><i class="fas fa-industry mr-2"></i>Industries</a>
+
+            <div class="megadrop">
+
+
+              <div class="row px-5">
+                <div class="col-md-4 mt-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 my-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 my-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 my-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
 
           </li>
           <li> <a href="#"><i class="fas fa-user-tie  mr-2"></i>Jobs</a>
@@ -959,6 +835,93 @@
             </div>
 
           </li>
+          <li> <a href="#"><i class="far fa-plus-square highlightl mr-2"></i>Others</a>
+
+            <div class="megadrop">
+
+              <div class="row px-5">
+                <div class="col-md-4 mt-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 my-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square  highlightl"></i> More</span></a>
+                  </ul>
+                </div>
+                <div class="col-md-4 my-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+                <div class="col-md-4 my-4">
+                  <h6>Home Appliances</h6>
+                  <div class="bb w100"></div>
+                  <ul class="lst">
+                    <li><a href="" class="smp2">Refrigerators / Fridge</a></li>
+                    <li><a href="" class="smp2">Washing Machines</a></li>
+                    <li><a href="" class="smp2">Air Coolers</a></li>
+                    <li><a href="" class="smp2">Air Conditioners / AC</a></li>
+                    <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
+                    <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
+
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+          </li>
         </ul>
       </div>
       <div class="col-md-8">
@@ -969,24 +932,69 @@
         </div>
       </div>
       <div class="col-md-2 process">
-        <h5 class="title_bg"><i class="fas fa-clipboard-list ml-2 pr-2"></i>How it works ?</h5>
+        <h5 class="title_bg"><i class="fas fa-bell ml-2 pr-2"></i>Receive Alerts</h5>
         <ul class="lst text-center border_ul">
-          <li>
-            <img src="img/icons/package.png" alt="" width="30%" class="icon">
-            <p class="m-0">1) Upload Your Products</p>
-            <small class="text-left ml-3">Registered member can upload the products.</small>
-          </li>
-          <li>
-            <img src="img/icons/tag.png" alt="" width="30%" class="icon">
-            <p class="m-0">2) Set Your Price</p>
-            <small class="text-left ml-3">Set the price of the products.</small>
-          </li>
-          <li>
-            <img src="img/icons/money.png" alt="" width="30%" class="icon">
-            <p class="m-0">3) Start Earning</p>
-            <small class="text-left ml-3">Finally start earning.</small>
+          <li class="border-0 mx-2">
+            <div class="input-group mt-1">
+              <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
+                <option selected>Select Category</option>
+                <option value="1">Home & Lifestyle</option>
+                <option value="2">Services</option>
+                <option value="3">Real Estate</option>
+                <option value="4">Cars/Bikes</option>
+                <option value="5">Jobs</option>
+                <option value="6">Entertainment</option>
+                <option value="7">Education & Training</option>
+                <option value="8">Electronic Appliances</option>
+                <option value="8">Mobile & Tablets</option>
+              </select>
+            </div>
+            <div class="input-group mt-1">
+              <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
+                <option selected>Select Sub Category</option>
+                <option value="1">Home & Lifestyle</option>
+                <option value="2">Services</option>
+                <option value="3">Real Estate</option>
+                <option value="4">Cars/Bikes</option>
+                <option value="5">Jobs</option>
+                <option value="6">Entertainment</option>
+                <option value="7">Education & Training</option>
+                <option value="8">Electronic Appliances</option>
+                <option value="8">Mobile & Tablets</option>
+              </select>
+            </div>
+            <div class="input-group mt-1">
+              <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
+                <option selected>Select City</option>
+                <option value="1">Home & Lifestyle</option>
+                <option value="2">Services</option>
+                <option value="3">Real Estate</option>
+                <option value="4">Cars/Bikes</option>
+                <option value="5">Jobs</option>
+                <option value="6">Entertainment</option>
+                <option value="7">Education & Training</option>
+                <option value="8">Electronic Appliances</option>
+                <option value="8">Mobile & Tablets</option>
+              </select>
+            </div>
+            <div class="input-group mt-1">
+              <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
+                <option selected>Select Locality</option>
+                <option value="1">Home & Lifestyle</option>
+                <option value="2">Services</option>
+                <option value="3">Real Estate</option>
+                <option value="4">Cars/Bikes</option>
+                <option value="5">Jobs</option>
+                <option value="6">Entertainment</option>
+                <option value="7">Education & Training</option>
+                <option value="8">Electronic Appliances</option>
+                <option value="8">Mobile & Tablets</option>
+              </select>
+            </div>
+            <a href="#"><button type="button" name="button" class="btn btn-regular smp2 my-1 w100">Create Alert</button></a>
           </li>
         </ul>
+        <img src="img/ads/ad4.gif" alt="" width="100%" height="130px">
       </div>
     </div>
   </div>
@@ -996,8 +1004,9 @@
   <img src="img/ads/add5.gif" alt="" width="100%">
 </div>
 
+
 <!-- FEATURED -->
-<section class="product_info mt-5">
+<section class="product_info tabbed_product mt-5">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2 process">
@@ -1007,15 +1016,15 @@
             <small class="text-left ml-3">As your trusted partner, we offer you products & services with our quality stamp.</small>
           </li>
           <li>
-            <img src="img/icons/security.png" alt="" width="30%" class="icon">
+            <img src="img/icons/security.png" alt="" width="40px" class="icon">
             <p class="m-0">1) Quality Assurance</p>
           </li>
           <li>
-            <img src="img/icons/air.png" alt="" width="30%" class="icon">
+            <img src="img/icons/air.png" alt="" width="40px" class="icon">
             <p class="m-0">2) Seamless &<br> Convenient</p>
           </li>
           <li>
-            <img src="img/icons/value.png" alt="" width="30%" class="icon">
+            <img src="img/icons/value.png" alt="" width="40px" class="icon">
             <p class="m-0">3) Value For ME</p>
           </li>
           <div class="input-group">
@@ -1025,123 +1034,980 @@
             </div>
           </div>
         </ul>
+        <img src="img/ads/ad3.gif" alt="" width="100%" height="140px">
       </div>
       <div class="col-md-10">
-            <h2>Featured <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h2>
-            <hr class="mb-4">
-            <div class="row m-0">
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p1.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="" target="_blank" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
-                  </div>
+        <section class="tab-area">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-12">
+                <div class="list-group" id="list-tab" role="tablist">
+                  <a class="list-group-item list-group-item-action active show" id="list-home-list" data-toggle="tab" href="#list-home" role="tab" aria-controls="list-home" aria-selected="true" title="List of Assured Products">Assured </a>
+                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-profile" role="tab" aria-controls="list-profile" aria-selected="false" title="List of Featured Products">Featured</a>
+                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-messages" role="tab" aria-controls="list-messages" aria-selected="false" title="List of Verified Products">Verified</a>
                 </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p8.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="" target="_blank" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+                    <!-- Tab -->
+                    <ul class="tab" data-tab-name="tab">
+                      <li><a href="#content1">Cars/Bikes</a></li>
+                      <li><a href="#content2">Industries</a></li>
+                      <li><a href="#content3">Jobs</a></li>
+                      <li><a href="#content4">Services</a></li>
+                      <li><a href="#content5">Real Estate</a></li>
+                      <li><a href="#content6">Bazaar</a></li>
+                      <li><a href="#content7">Furniture</a></li>
+                      <li><a href="#content8">Fashion</a></li>
+                      <li><a href="#content9">Groceries</a></li>
+                      <li><a href="#content10">Food</a></li>
+                      <li><a href="#content11">Mobile</a></li>
+                      <li><a href="#content11">Electronics</a></li>
+                      <li><a href="#content11">Education</a></li>
+                      <li><a href="#content11">Pets</a></li>
+                    </ul>
+
+                    <!-- Content -->
+
+                    <div class="tabContent" id="content1">
+                      <div id="owl-demotab" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content2">
+                      <div id="owl-demotab2" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content3">
+                      <div id="owl-demotab3" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content4">
+                      <div id="owl-demotab4" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Folding Pocket Multitool Knife Swiss Army Style Outdoor 11 Function</h5>
+
+                  <div class="tab-pane fade show" id="list-home" role="tabpanel" aria-labelledby="list-profile-list">
+
+                    <!-- Tab -->
+                    <ul class="tab" data-tab-name="tab">
+                      <li><a href="#content1">Cars/Bikes</a></li>
+                      <li><a href="#content2">Industries</a></li>
+                      <li><a href="#content3">Jobs</a></li>
+                      <li><a href="#content4">Services</a></li>
+                      <li><a href="#content5">Real Estate</a></li>
+                      <li><a href="#content6">Bazaar</a></li>
+                      <li><a href="#content7">Furniture</a></li>
+                      <li><a href="#content8">Fashion</a></li>
+                      <li><a href="#content9">Groceries</a></li>
+                      <li><a href="#content10">Food</a></li>
+                      <li><a href="#content11">Mobile</a></li>
+                      <li><a href="#content11">Electronics</a></li>
+                      <li><a href="#content11">Education</a></li>
+                      <li><a href="#content11">Pets</a></li>
+                    </ul>
+
+                    <!-- Content -->
+
+                    <div class="tabContent" id="content1">
+                      <div id="owl-demotab" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content2">
+                      <div id="owl-demotab2" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content3">
+                      <div id="owl-demotab3" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content4">
+                      <div id="owl-demotab4" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
                   </div>
+
+                  <div class="tab-pane fade show" id="list-home" role="tabpanel" aria-labelledby="list-messages-list">
+
+                    <!-- Tab -->
+                    <ul class="tab" data-tab-name="tab">
+                      <li><a href="#content1">Cars/Bikes</a></li>
+                      <li><a href="#content2">Industries</a></li>
+                      <li><a href="#content3">Jobs</a></li>
+                      <li><a href="#content4">Services</a></li>
+                      <li><a href="#content5">Real Estate</a></li>
+                      <li><a href="#content6">Bazaar</a></li>
+                      <li><a href="#content7">Furniture</a></li>
+                      <li><a href="#content8">Fashion</a></li>
+                      <li><a href="#content9">Groceries</a></li>
+                      <li><a href="#content10">Food</a></li>
+                      <li><a href="#content11">Mobile</a></li>
+                      <li><a href="#content11">Electronics</a></li>
+                      <li><a href="#content11">Education</a></li>
+                      <li><a href="#content11">Pets</a></li>
+                    </ul>
+
+                    <!-- Content -->
+
+                    <div class="tabContent" id="content1">
+                      <div id="owl-demotab" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content2">
+                      <div id="owl-demotab2" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content3">
+                      <div id="owl-demotab3" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="tabContent" id="content4">
+                      <div id="owl-demotab4" class="owl-carousel owl-theme">
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="items">
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                          <div class="card card-product-hover mt-2">
+                            <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+                            <div class="card-product-hover-details">
+                              <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                              <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
                 </div>
-              </div>
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p2.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p6.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p3.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">KTM Dirt Bike gloves Suit for All Seasons</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p7.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Rubber Hex Dumbell 5kg (2.5kg x 2 = 5kg ) Pack of 2</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p4.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Maroon/Cream Floral Printed Floor Carpet (120x 170cm)</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p9.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">8X Zoom Mobile Phone Telescope Lens with Clip</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="m-auto">
-                <a href="#"><button type="button" name="button" class="btn btn-regular mt-4">LOAD MORE</button></a>
               </div>
             </div>
+          </div>
+        </section>
       </div>
-</div>
-</div>
+    </div>
+  </div>
 </section>
+
 
 <!-- <div class="container-fluid mt-4">
   <div class="row">
@@ -1157,230 +2023,406 @@
   </div>
 </div> -->
 
-<div class="container-fluid mt-5 sponsor">
+
+<!-- SPONSORS -->
+<div class="container-fluid  mt-5 sponsor">
   <div class="row">
     <div class="col-md-2 process">
-      <h5 class="title_bg"><i class="fas fa-bell ml-2 pr-2"></i>Notifications</h5>
+      <h5 class="title_bg"><i class="fas fa-clipboard-list ml-2 pr-2"></i>How it works ?</h5>
       <ul class="lst text-center border_ul">
-        <li class="border-0">
-          <small class="text-left ">Create Notifications and get notified upon product upload</small>
+        <li>
+          <img src="img/icons/package.png" alt="" width="40px" class="icon">
+          <p class="m-0">1) Upload Your Products</p>
+          <small class="text-left ml-3">Registered member can upload the products.</small>
         </li>
-        <li class="border-0 mx-2">
-          <div class="input-group mt-1">
-            <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
-              <option selected>Select Category</option>
-              <option value="1">Home & Lifestyle</option>
-              <option value="2">Services</option>
-              <option value="3">Real Estate</option>
-              <option value="4">Cars/Bikes</option>
-              <option value="5">Jobs</option>
-              <option value="6">Entertainment</option>
-              <option value="7">Education & Training</option>
-              <option value="8">Electronic Appliances</option>
-              <option value="8">Mobile & Tablets</option>
-            </select>
-          </div>
-          <div class="input-group mt-1">
-            <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
-              <option selected>Select Sub Category</option>
-              <option value="1">Home & Lifestyle</option>
-              <option value="2">Services</option>
-              <option value="3">Real Estate</option>
-              <option value="4">Cars/Bikes</option>
-              <option value="5">Jobs</option>
-              <option value="6">Entertainment</option>
-              <option value="7">Education & Training</option>
-              <option value="8">Electronic Appliances</option>
-              <option value="8">Mobile & Tablets</option>
-            </select>
-          </div>
-          <div class="input-group mt-1">
-            <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
-              <option selected>Select City</option>
-              <option value="1">Home & Lifestyle</option>
-              <option value="2">Services</option>
-              <option value="3">Real Estate</option>
-              <option value="4">Cars/Bikes</option>
-              <option value="5">Jobs</option>
-              <option value="6">Entertainment</option>
-              <option value="7">Education & Training</option>
-              <option value="8">Electronic Appliances</option>
-              <option value="8">Mobile & Tablets</option>
-            </select>
-          </div>
-          <div class="input-group mt-1">
-            <select class="custom-select rounded-0 smp2" id="inputGroupSelect01">
-              <option selected>Select Locality</option>
-              <option value="1">Home & Lifestyle</option>
-              <option value="2">Services</option>
-              <option value="3">Real Estate</option>
-              <option value="4">Cars/Bikes</option>
-              <option value="5">Jobs</option>
-              <option value="6">Entertainment</option>
-              <option value="7">Education & Training</option>
-              <option value="8">Electronic Appliances</option>
-              <option value="8">Mobile & Tablets</option>
-            </select>
-          </div>
-            <input type="text" class="form-control rounded-0 smp2 mt-1" placeholder="Mobile Number" aria-label="Username" aria-describedby="basic-addon1">
-            <input type="email" class="form-control rounded-0 smp2 mt-1" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
-            <div id="form-wrapper">
-	<form action="/p/quote.php" method="GET">
-		<h1 id="form-title">Select Debt Amount</h1>
-		<div id="debt-amount-slider">
-			<input type="radio" name="debt-amount" id="1" value="1" required>
-			<label for="1" data-debt-amount="< $10k"></label>
-			<input type="radio" name="debt-amount" id="2" value="2" required>
-			<label for="2" data-debt-amount="$10k-25k"></label>
-			<input type="radio" name="debt-amount" id="3" value="3" required>
-			<label for="3" data-debt-amount="$25k-50k"></label>
-			<input type="radio" name="debt-amount" id="4" value="4" required>
-			<label for="4" data-debt-amount="$50k-100k"></label>
-			<input type="radio" name="debt-amount" id="5" value="5" required>
-			<label for="5" data-debt-amount="$100k+"></label>
-			<div id="debt-amount-pos"></div>
-		</div>
-	</form>
-	<button type="submit">Get Debt Free!</button>
-</div>
-            <a href="#"><button type="button" name="button" class="btn btn-regular smp2 mt-2 w100">Create Alert</button></a>
+        <li>
+          <img src="img/icons/tag.png" alt="" width="40px" class="icon">
+          <p class="m-0">2) Set Your Price</p>
+          <small class="text-left ml-3">Set the price of the products.</small>
+        </li>
+        <li>
+          <img src="img/icons/money.png" alt="" width="40px" class="icon">
+          <p class="m-0">3) Start Earning</p>
+          <small class="text-left ml-3">Finally start earning.</small>
         </li>
       </ul>
     </div>
     <div class="col-md-10">
-        <div class="row">
-          <div class="col-md-4">
-            <h5 class="title_bg2 text-center default_bg"><img src="img/favicon.png" alt="" width="15px" class="mr-1 mb-2">Cars<small class="form-text text-muted">Buy & sell new and used cars or book a variety of auto services</small></h5>
-
-            <ul class="lst border_ul">
-              <li class="mb-1 px-3 border-top smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="mb-1 px-3 smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp2"><a href="" class="highlight2">View All Categories</a></li>
-              <div class="bb w100"></div>
-            </ul>
-
-          </div>
-          <div class="col-md-4">
-            <h5 class="title_bg2 text-center default_bg"><img src="img/favicon.png" alt="" width="15px" class="mr-1 mb-2">Bikes<small class="form-text text-muted">Buy & sell new and used cars or book a variety of auto services</small></h5>
-
-            <ul class="lst border_ul">
-              <li class="mb-1 px-3 border-top smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="mb-1 px-3 smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp2"><a href="" class="highlight2">View All Categories</a></li>
-              <div class="bb w100"></div>
-            </ul>
-
-          </div>
-          <div class="col-md-4">
-            <h5 class="title_bg2 text-center default_bg"><img src="img/favicon.png" alt="" width="15px" class="mr-1 mb-2">Jobs<small class="form-text text-muted">Buy & sell new and used cars or book a variety of auto services</small></h5>
-
-            <ul class="lst border_ul">
-              <li class="mb-1 px-3 border-top smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="mb-1 px-3 smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp2"><a href="" class="highlight2">View All Categories</a></li>
-              <div class="bb w100"></div>
-            </ul>
-
-          </div>
-          <div class="col-md-4">
-            <h5 class="title_bg2 text-center default_bg"><img src="img/favicon.png" alt="" width="15px" class="mr-1 mb-2">Services<small class="form-text text-muted">Buy & sell new and used cars or book a variety of auto services</small></h5>
-
-            <ul class="lst border_ul">
-              <li class="mb-1 px-3 border-top smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="mb-1 px-3 smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp2"><a href="" class="highlight2">View All Categories</a></li>
-              <div class="bb w100"></div>
-            </ul>
-
-          </div>
-          <div class="col-md-4">
-            <h5 class="title_bg2 text-center default_bg"><img src="img/favicon.png" alt="" width="15px" class="mr-1 mb-2">Real Estate<small class="form-text text-muted">Buy & sell new and used cars or book a variety of auto services</small></h5>
-
-            <ul class="lst border_ul">
-              <li class="mb-1 px-3 border-top smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="mb-1 px-3 smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp2"><a href="" class="highlight2">View All Categories</a></li>
-              <div class="bb w100"></div>
-            </ul>
-
-          </div>
-          <div class="col-md-4">
-            <h5 class="title_bg2 text-center default_bg"><img src="img/favicon.png" alt="" width="15px" class="mr-1 mb-2">Bazaar<small class="form-text text-muted">Buy & sell new and used cars or book a variety of auto services</small></h5>
-
-            <ul class="lst border_ul">
-              <li class="mb-1 px-3 border-top smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="mb-1 px-3 smp"><a href="">New Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Used Cars</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp"><a href="">Cars On Sell</a></li>
-              <div class="bb w100"></div>
-              <li class="my-1 px-3 smp2"><a href="" class="highlight2">View All Categories</a></li>
-              <div class="bb w100"></div>
-            </ul>
+      <div class="row">
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Cars</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons2/usedcar.png" alt="" width="50px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons2/verifiedcar.png" alt="" width="50px"><br><span class="smp2">Verified Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons2/assuredcar.png" alt="" width="50px"><br><span class="smp2">Assured Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons2/usedcar.png" alt="" width="50px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons2/usedcar.png" alt="" width="50px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="insidecontent"><img src="img/icons2/allcars.png" alt="" width="50px"><br><span class="smp2">View All</span></div>
+              </div>
+            </div>
 
           </div>
         </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Bikes</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/delivery-truck2.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/delivery-truck2.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/delivery-truck2.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/delivery-truck2.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/delivery-truck2.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Real Estate</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/house.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/house.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/house.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/house.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/house.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Jobs</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Services</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Industries</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Furniture</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Electronics & Accessories</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 sponsors text-center">
+          <div class="content">
+            <p class="smp2">Bechdena Bazaar</p>
+            <div class="row">
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-2">
+                <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
+              </div>
+              <div class="col-md-4 mt-4">
+                <div class="insidecontent"><span class="smp2 highlightl">View All</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- BRANDS -->
+<section class="product_info mt-5">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 process"></div>
+      <div class="col-md-10">
+        <h5>Category By Brands <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h5>
+        <hr class="mb-4">
+        <div id="owl-demobrands" class="owl-carousel owl-theme">
+          <div class="mt-2">
+            <a href="product_details.php"><img src="img/brands/1.png" alt="" class="brand_img" /></a>
+            <a href="product_details.php"><img src="img/brands/1.png" alt="" class="brand_img" /></a>
+          </div>
+          <div class="mt-2">
+            <a href="product_details.php"><img src="img/brands/2.png" alt="" class="brand_img" /></a>
+            <a href="product_details.php"><img src="img/brands/2.png" alt="" class="brand_img" /></a>
+          </div>
+          <div class="mt-2">
+            <a href="product_details.php"><img src="img/brands/2.png" alt="" class="brand_img" /></a>
+            <a href="product_details.php"><img src="img/brands/3.png" alt="" class="brand_img" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- FEATURED -->
+<section class="product_info mt-5">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 process">
+        <h5 class="title_bg"><i class="fas fa-shield-alt ml-2 pr-2"></i>Why verify ?</h5>
+        <ul class="lst text-center border_ul">
+          <li>
+            <small class="text-left ml-3">As your trusted partner, we offer you products & services with our quality stamp.</small>
+          </li>
+          <li>
+            <img src="img/icons/security.png" alt="" width="40px" class="icon">
+            <p class="m-0">1) Quality Assurance</p>
+          </li>
+          <li>
+            <img src="img/icons/air.png" alt="" width="40px" class="icon">
+            <p class="m-0">2) Seamless &<br> Convenient</p>
+          </li>
+          <li>
+            <img src="img/icons/value.png" alt="" width="40px" class="icon">
+            <p class="m-0">3) Value For ME</p>
+          </li>
+          <div class="input-group">
+            <input type="email" class="form-control rounded-0 smp2" placeholder="Mobile " aria-label="Recipient's email" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button type="button" name="button" class="btn btn-regular rounded-0 smp">Verify</button>
+            </div>
+          </div>
+        </ul>
+        <img src="img/ads/ad3.gif" alt="" width="100%" height="140px">
+      </div>
+      <div class="col-md-10">
+        <h5>Featured <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h5>
+        <hr class="mb-4">
+        <div id="owl-demo2" class="owl-carousel owl-theme">
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- VERIFIED -->
 <section class="product_info mt-4">
@@ -1402,171 +2444,80 @@
 
       </div>
       <div class="col-md-10 mt-4">
-          <div class="container p-z">
-            <h2>Verified <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h2>
-            <hr class="mb-4">
-            <div class="row m-0">
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p1.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p8.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Folding Pocket Multitool Knife Swiss Army Style Outdoor 11 Function</h5>
-                  </div>
-                </div>
+        <h5>Verified <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h5>
+        <hr class="mb-4">
+        <div id="owl-demo3" class="owl-carousel owl-theme">
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
               </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p2.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons mt-2">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p6.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p3.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">KTM Dirt Bike gloves Suit for All Seasons</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p7.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Rubber Hex Dumbell 5kg (2.5kg x 2 = 5kg ) Pack of 2</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p4.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Maroon/Cream Floral Printed Floor Carpet (120x 170cm)</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p9.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">8X Zoom Mobile Phone Telescope Lens with Clip</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second mt-2">
-                <div class="card card-product-hover">
-                  <img src="img/products/p10.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Aria Pro II Red Vintage Electric Guitar - 615-FRONTIER</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p11.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">M2 Bluetooth Intelligence Health Smart Wrist Watch</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p12.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Mheecha Boulder Sack (Red/Orange)</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p13.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Plastic Attached Cap Water Bottle - 1000ml</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="m-auto">
-                <a href="#"><button type="button" name="button" class="btn btn-regular mt-4">LOAD MORE</button></a>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
               </div>
             </div>
           </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -1591,119 +2542,79 @@
         </ul>
       </div>
       <div class="col-md-10">
-          <div class="container p-z">
-            <h2>Trending <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h2>
-            <hr class="mb-4">
-            <div class="row m-0">
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p1.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p8.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Folding Pocket Multitool Knife Swiss Army Style Outdoor 11 Function</h5>
-                  </div>
-                </div>
+        <h5>Trending <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h5>
+        <hr class="mb-4">
+        <div id="owl-demo4" class="owl-carousel owl-theme">
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
               </div>
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p2.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p6.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p3.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">KTM Dirt Bike gloves Suit for All Seasons</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p7.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Rubber Hex Dumbell 5kg (2.5kg x 2 = 5kg ) Pack of 2</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3 layout_first">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p4.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Maroon/Cream Floral Printed Floor Carpet (120x 170cm)</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p9.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">8X Zoom Mobile Phone Telescope Lens with Clip</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="m-auto">
-                <a href="#"><button type="button" name="button" class="btn btn-regular mt-4">LOAD MORE</button></a>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
               </div>
             </div>
           </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
 </section>
 </div>
@@ -1732,171 +2643,80 @@
         </div>
       </div>
       <div class="col-md-10 mt-5">
-          <div class="container p-z">
-            <h2>Recently Added <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h2>
-            <hr class="mb-4">
-            <div class="row m-0">
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p1.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p8.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Folding Pocket Multitool Knife Swiss Army Style Outdoor 11 Function</h5>
-                  </div>
-                </div>
+        <h5>Recently Added<a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h5>
+        <hr class="mb-4">
+        <div id="owl-demo5" class="owl-carousel owl-theme">
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
               </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p2.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p6.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p3.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">KTM Dirt Bike gloves Suit for All Seasons</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p7.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Rubber Hex Dumbell 5kg (2.5kg x 2 = 5kg ) Pack of 2</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p4.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Maroon/Cream Floral Printed Floor Carpet (120x 170cm)</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p9.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">8X Zoom Mobile Phone Telescope Lens with Clip</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p10.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Aria Pro II Red Vintage Electric Guitar - 615-FRONTIER</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p11.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">M2 Bluetooth Intelligence Health Smart Wrist Watch</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-2 layout_first layout_second">
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p12.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Mheecha Boulder Sack (Red/Orange)</h5>
-                  </div>
-                </div>
-                <div class="card card-product-hover mt-2">
-                  <img src="img/products/p13.jpg" alt="" class="product_img" />
-                  <div class="card-product-hover-icons">
-                    <a href="#"><i class="fa fa-shopping-cart" data-toggle="tooltip" data-placement="right" title="Add to Cart"></i></a>
-                    <a href="#"><i class="fas fa-comments" data-toggle="tooltip" data-placement="right" title="Enquire"></i></a>
-                    <a href="product_details.php" target="_blank"><i class="fa fa-eye" data-toggle="tooltip" data-placement="right" title="View"></i></a>
-                  </div>
-                  <div class="card-product-hover-details">
-                    <p class="card-product-hover-price">Rs. 1,75,000 <i class="far fa-heart float-right"></i></p>
-                    <h5 class="card-product-hover-title text-truncate">Plastic Attached Cap Water Bottle - 1000ml</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="m-auto">
-                <a href="#"><button type="button" name="button" class="btn btn-regular mt-4">LOAD MORE</button></a>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p1.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
               </div>
             </div>
           </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p2.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p3.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="items">
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p6.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+            <div class="card card-product-hover mt-2">
+              <a href="product_details.php"><img src="img/products/p7.jpg" alt="" class="product_img" /></a>
+              <div class="card-product-hover-details">
+                <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                <h5 class="card-product-hover-title text-truncate">X507UB - 8TH i5 - 2G - NEW ULTRABOOK</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -1924,14 +2744,5 @@
 </section>
 
 <div class="totop"><i class="fa fa-angle-up mr-2"></i> BACK TO TOP</div>
-
-
-
-
-
-
-
-
-
 
 <?php include 'inc/footer.php'; ?>
