@@ -301,6 +301,68 @@
   </div>
   </section>
 
+  <!-- FEATURED -->
+  <section class="product_info mt-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+              <h5>New Properties <a href="product_single.php"><button type="button" name="button" class="btn btn-regular float-right">View All</button></a> </h5>
+              <hr class="mb-4">
+              <div id="owl-demo9" class="owl-carousel owl-theme">
+                <div class="card card-product-hover mt-2">
+                  <a href="product_details.php"><img src="img/realestate/1.jpg" alt="" class="product_img" /></a>
+                  <div class="card-product-hover-details">
+                    <p class="mb-2">House On Sell</p>
+                    <h5 class="card-product-hover-title text-truncate"><i class="fas fa-map-marker-alt highlight mr-1"></i> Sankhamul Chowk, Kathmandu</h5>
+                    <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                  </div>
+                </div>
+                <div class="card card-product-hover mt-2">
+                  <a href="product_details.php"><img src="img/realestate/1.jpg" alt="" class="product_img" /></a>
+                  <div class="card-product-hover-details">
+                    <p class="mb-2">House On Sell</p>
+                    <h5 class="card-product-hover-title text-truncate"><i class="fas fa-map-marker-alt highlight mr-1"></i> Sankhamul Chowk, Kathmandu</h5>
+                    <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                  </div>
+                </div>
+                <div class="card card-product-hover mt-2">
+                  <a href="product_details.php"><img src="img/realestate/1.jpg" alt="" class="product_img" /></a>
+                  <div class="card-product-hover-details">
+                    <p class="mb-2">House On Sell</p>
+                    <h5 class="card-product-hover-title text-truncate"><i class="fas fa-map-marker-alt highlight mr-1"></i> Sankhamul Chowk, Kathmandu</h5>
+                    <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                  </div>
+                </div>
+                <div class="card card-product-hover mt-2">
+                  <a href="product_details.php"><img src="img/realestate/1.jpg" alt="" class="product_img" /></a>
+                  <div class="card-product-hover-details">
+                    <p class="mb-2">House On Sell</p>
+                    <h5 class="card-product-hover-title text-truncate"><i class="fas fa-map-marker-alt highlight mr-1"></i> Sankhamul Chowk, Kathmandu</h5>
+                    <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                  </div>
+                </div>
+                <div class="card card-product-hover mt-2">
+                  <a href="product_details.php"><img src="img/realestate/1.jpg" alt="" class="product_img" /></a>
+                  <div class="card-product-hover-details">
+                    <p class="mb-2">House On Sell</p>
+                    <h5 class="card-product-hover-title text-truncate"><i class="fas fa-map-marker-alt highlight mr-1"></i> Sankhamul Chowk, Kathmandu</h5>
+                    <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                  </div>
+                </div>
+                <div class="card card-product-hover mt-2">
+                  <a href="product_details.php"><img src="img/realestate/1.jpg" alt="" class="product_img" /></a>
+                  <div class="card-product-hover-details">
+                    <p class="mb-2">House On Sell</p>
+                    <h5 class="card-product-hover-title text-truncate"><i class="fas fa-map-marker-alt highlight mr-1"></i> Sankhamul Chowk, Kathmandu</h5>
+                    <p class="card-product-hover-price">Rs. 1,75,000 <a href="#"><i class="far fa-heart float-right highlight"></i></a></p>
+                  </div>
+                </div>
+              </div>
+        </div>
+  </div>
+  </div>
+  </section>
+
 
 </section>
 

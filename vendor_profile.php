@@ -17,7 +17,6 @@
 
 <section class="vendor_profile mb-5">
   <div class="container-fluid">
-
     <div class="row text-center secondary_bg">
       <div class="col-md-3 py-4">
         <p><img src="img/icons/pointer2.png" alt="" width="8%"><span class="ml-2">Location</span></p>

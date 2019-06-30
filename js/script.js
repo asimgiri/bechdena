@@ -45,6 +45,97 @@ $(document).ready(function() {
 
   });
 
+  $("#owl-democat").owlCarousel({
+
+    // autoplay: true,
+    loop: true,
+    nav: true, // Show next and prev buttons
+    slideSpeed: 500,
+    margin: 8,
+    paginationSpeed: 400,
+    autoplay: true,
+    smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1
+      },
+      300: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      },
+      2000: {
+        items: 8
+      }
+    }
+
+  });
+
+  $("#owl-democat2").owlCarousel({
+
+    // autoplay: true,
+    loop: true,
+    nav: true, // Show next and prev buttons
+    slideSpeed: 500,
+    margin: 8,
+    paginationSpeed: 400,
+    autoplay: true,
+    smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1
+      },
+      300: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      },
+      2000: {
+        items: 8
+      }
+    }
+
+  });
+
+  $("#owl-democat3").owlCarousel({
+
+    // autoplay: true,
+    loop: true,
+    nav: true, // Show next and prev buttons
+    slideSpeed: 500,
+    margin: 8,
+    paginationSpeed: 400,
+    autoplay: true,
+    smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1
+      },
+      300: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 4
+      },
+      2000: {
+        items: 8
+      }
+    }
+
+  });
+
+
 
   $("#owl-demo3").owlCarousel({
 
@@ -222,6 +313,37 @@ $(document).ready(function() {
       },
       1000: {
         items: 2
+      },
+      2000: {
+        items: 8
+      }
+    }
+
+  });
+
+
+  $("#owl-demo9").owlCarousel({
+
+    // autoplay: true,
+    loop: true,
+    nav: true, // Show next and prev buttons
+    slideSpeed: 500,
+    margin: 8,
+    paginationSpeed: 400,
+    autoplay: true,
+    smartSpeed: 800,
+    responsive: {
+      0: {
+        items: 1
+      },
+      300: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 3
       },
       2000: {
         items: 8
@@ -508,3 +630,9 @@ function scrollFunction() {
     // document.getElementById("logo").style.fontSize = "35px";
   }
 }
+
+
+$(document).ready(function() {
+            $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
+            $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
+        });

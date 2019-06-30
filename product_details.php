@@ -1,35 +1,25 @@
 <?php include 'inc/header.php'; ?>
 
-<section class="breadcrumb mt cover" style="background: url('img/banner/abstract.jpg'); background-attachment: fixed;">
-  <nav aria-label="breadcrumb" class="m-auto">
-    <h2 class="mt-4 text-center">Product Details</h2>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item smp"><a href="index.php">Home</a></li>
-      <li class="breadcrumb-item smp"><a href="index.php">Products</a></li>
-      <li class="breadcrumb-item active smp" aria-current="page">Product Details</li>
-    </ol>
-  </nav>
-</section>
 
-<section class="product_details">
-  <div class="container">
+
+<section class="product_details spacing">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-4 p-z mt-4">
-        <!-- magnific start -->
-        <div id="magnific">
-          <div class="xzoom-container">
-            <img class="xzoom5" id="xzoom-magnific" src="img/gallery/preview/p1.jpg" xoriginal="img/gallery/original/p1.jpg" />
-            <div class="xzoom-thumbs">
-              <a href="img/gallery/original/p1.jpg"><img class="xzoom-gallery5" width="80" src="img/gallery/thumbs/p1.jpg" xpreview="img/gallery/preview/p1.jpg" title="The description goes here"></a>
-              <a href="img/gallery/original/p6.jpg"><img class="xzoom-gallery5" width="80" src="img/gallery/thumbs/p6.jpg" xpreview="img/gallery/preview/p6.jpg" title="The description goes here"></a>
-              <a href="img/gallery/original/03_r_car.jpg"><img class="xzoom-gallery5" width="80" src="img/gallery/preview/03_r_car.jpg" title="The description goes here"></a>
-              <a href="img/gallery/original/04_g_car.jpg"><img class="xzoom-gallery5" width="80" src="img/gallery/preview/04_g_car.jpg" title="The description goes here"></a>
-            </div>
+      <div class="demo col-md-5 mt-4">
+        <div class="item">
+          <div class="clearfix" style="max-width:600px;">
+            <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+              <li data-thumb="img/thumb/cS-1.jpg" data-src="img/cS-1.jpg">
+                <img src="img/cS-1.jpg" />
+              </li>
+              <li data-thumb="img/thumb/cS-2.jpg" data-src="img/cS-2.jpg">
+                <img src="img/cS-2.jpg" />
+              </li>
+            </ul>
           </div>
         </div>
-        <!-- magnific end -->
       </div>
-      <div class="col-md-5 pl-5 mt-4">
+      <div class="col-md-4 mt-4">
         <!-- <p class="smp gray_p m-0">Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</p>
         <p class="card-product-hover-price">Rs. 1,75,000</p> -->
         <h5>Xiaomi MI 6 Smart Mobile Phone [6GB RAM, 128GB ROM - Blue]</h5>
@@ -55,8 +45,7 @@
         <a href=""><button type="button" name="button" class="btn btn-regular px-4">Buy Now</button></a>
         <a href=""><button type="button" name="button" class="btn btn-regular px-4">Add To Cart</button></a>
       </div>
-
-      <div class="col-md-3 p-z mt-4">
+      <div class="col-md-3 mt-4">
         <div class="title_bg text-center"><i class="fas fa-info-circle"></i> Sellers Info</div>
         <ul class="lst smp border_ul">
           <li class="text-center"><a href="#"><img src="img/company/company.png" alt="" width="50%"></a>
@@ -73,172 +62,119 @@
       </div>
     </div>
 
-    <!-- Tabs -->
-    <section id="tabs" class="my-5">
-      <div class="container p-z">
-        <div class="row">
-          <div class="col-xs-12 ">
-            <nav>
-              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Product Details</a>
-                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Description</a>
-                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Reviews</a>
-              </div>
-            </nav>
-            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                <div class="row">
-                  <div class="col-md-6">
-                    <p>Ad Details :</p>
-                    <table class="table table-striped ">
-                      <tbody>
-                        <tr>
-                          <td class="smp">Condition</td>
-                          <td class="smp">Almost Like New</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Posted By</td>
-                          <td class="smp"><a href="vendor_profile.php">Top Collection Enterprises</a></td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Brand Name</td>
-                          <td class="smp">TECHNOS</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Product Type</td>
-                          <td class="smp">Laptop</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Screen Size</td>
-                          <td class="smp">14 to 14.9 inches In</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">RAM</td>
-                          <td class="smp">4GB</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Quantity</td>
-                          <td class="smp">6</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Model</td>
-                          <td class="smp">440 G1</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+    <div class="row mt-5">
+      <div class="col-md-9 p-z">
 
-                  <div class="col-md-6">
-                    <p>Packaging & Delivery</p>
-                    <table class="table table-striped">
-                      <tbody>
-                        <tr>
-                          <td class="smp">Selling Units</td>
-                          <td class="smp">Single Item</td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Home Delivery</td>
-                          <td class="smp"><a href="vendor_profile.php">Yes</a></td>
-                        </tr>
-                        <tr>
-                          <td class="smp">Delivery Location</td>
-                          <td class="smp">All Around Nepal</td>
-                      </tbody>
-                    </table>
-                  </div>
+        <div class="col-xl-12">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active show" id="list-home-list" data-toggle="tab" href="#list-home" role="tab" aria-controls="list-home" aria-selected="true">Product Details </a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-profile" role="tab" aria-controls="list-profile" aria-selected="false">Descritpion</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-messages" role="tab" aria-controls="list-messages" aria-selected="false">Reviews</a>
+          </div>
+          <div class="tab-content" id="nav-tabContent">
 
-                </div>
-              </div>
-              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="tab-pane fade active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 
 
-              </div>
-              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="row">
-                      <div class="col-md-2 text-center">
-                        <img src="img/user.png" alt="" width="60px">
-                      </div>
-                      <div class="col-md-8">
-                        <p class="smp mb-0">Mike Fisher</p>
-                        <ul class="lst">
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                        </ul>
-                        <p class="smp gray_p mb-0">good Quality,on time just one complain I have. I requested a L size. But I received Size S.</p>
-                        <small class="form-text text-muted text-right">28th April, 2019</small>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-2 text-center">
-                        <img src="img/user.png" alt="" width="60px">
-                      </div>
-                      <div class="col-md-8">
-                        <p class="smp mb-0">Tony Stark</p>
-                        <ul class="lst">
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                        </ul>
-                        <p class="smp gray_p mb-0">good Quality,on time just one complain I have. I requested a L size. But I received Size S.</p>
-                        <small class="form-text text-muted text-right">28th April, 2019</small>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-2 text-center">
-                        <img src="img/user.png" alt="" width="60px">
-                      </div>
-                      <div class="col-md-8">
-                        <p class="smp mb-0">Alexander Dali</p>
-                        <ul class="lst">
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="fas fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                        </ul>
-                        <p class="smp gray_p mb-0">good Quality,on time just one complain I have. I requested a L size. But I received Size S.</p>
-                        <small class="form-text text-muted text-right">28th April, 2019</small>
-                      </div>
-                    </div>
-                    <div class="row my-4">
-                      <div class="col-md-2 text-center">
-                        <img src="img/user.png" alt="" width="60px">
-                      </div>
-                      <div class="col-md-8">
-                        <p class="smp mb-0">Romeo Scudboat</p>
-                        <ul class="lst">
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                          <li class="d-inline"><a href=""><i class="far fa-star"></i></a></li>
-                        </ul>
-                        <div class="comment my_commment">
-                          <div class="form-group mt-3">
-                            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3" placeholder="Write a comment..."></textarea>
-                              <a href="#"><button class="btn btn-regular float-right mt-1">Done</button></a>
-                              <small id="" class="form-text text-muted ">February 24, 2016 at 6:26 am</small>
-                          </div>
-                        </div>
-                      </div>
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <td>Condition :</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Condition :</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Brand :</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Price :</td>
+                    <td>the Bird</td>
+                  </tr>
+                  <tr>
+                    <td>Price :</td>
+                    <td>the Bird</td>
+                  </tr>
+                  <tr>
+                    <td>Price :</td>
+                    <td>the Bird</td>
+                  </tr>
+                </tbody>
+              </table>
 
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <table class="table table-striped border-left">
+                <tbody>
+                  <tr>
+                    <td>Condition :</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Condition :</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <td>Brand :</td>
+                    <td>Thornton</td>
+                  </tr>
+                  <tr>
+                    <td>Price :</td>
+                    <td>the Bird</td>
+                  </tr>
+                  <tr>
+                    <td>Price :</td>
+                    <td>the Bird</td>
+                  </tr>
+                  <tr>
+                    <td>Price :</td>
+                    <td>the Bird</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
             </div>
+
+            <div class="tab-pane fade show p-4" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <p class="smp text-muted">1 - No Messages Please** Tested and working.All below is INCLUDED Hardware;- 600GB HDD - 4GB RAM - Intel Core i5 4th Generation Turbo boost 2.60GHz- Batteries are included AND WORKING 1) Ram 4 GB 3) HDD 400 GB 4) Long Battery Backup (3 to 4 Hours - Guaranteed) 5) Laptop + Charger 6) DVD , WiFi , Bluetooth, All Features Available 7) Condition : Very Less -Excellent Condition 8) Windows 10 Ultimate + All necessary Software's</p>
+            </div>
+
+            <div class="tab-pane fade show" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+
+            </div>
+
           </div>
         </div>
+
       </div>
-    </section>
+      <div class="col-md-3">
+        <ul class="lst smp border_ul border-top">
+          <li class="text-center"><a href="#"><img src="img/company/company.png" alt="" width="50%"></a>
+            <!-- <a href="vendor_profile.php"><u>VIEW COMPANY PROFILE</u></a> -->
+          </li>
+          <div class="form-group pt-2 px-2">
+   <textarea class="form-control smp" placeholder="Hi, I'm interested in this product Is this still available? If so, when and where can I pick it up? Cheers." id="exampleFormControlTextarea1" rows="3"></textarea>
+   <form>
+  <div class="form-row mt-2">
+    <div class="col">
+      <input type="email" class="form-control smp" placeholder="Your Email">
+    </div>
+  </div>
+</form>
+<a href="#"><button type="button" name="button" class="btn btn-regular w100 mt-2"><i class="far fa-comment mr-2"></i>Send Message</button> </a>
+ </div>
+
+        </ul>
+      </div>
+    </div>
+
+
+
   </div>
 </section>
+
+
 
 <?php include 'inc/footer.php'; ?>

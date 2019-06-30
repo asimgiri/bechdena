@@ -14,14 +14,22 @@
   <!--FontAwesome CSS -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+
   <link rel="stylesheet" href="css/owl.carousel.min.css">
 
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="stylesheet" href="css/responsive.css">
 
-
   <script src="js/vendor/jquery.js"></script>
+
+  <link href="css/lightgallery.min.css" rel="stylesheet">
+  <script src="js/lightgallery-all.min.js"></script>
+
+  <link href="css/lightslider.css" rel="stylesheet">
+  <script src="js/lightslider.js"></script>
+
+
   <!-- xzoom plugin here -->
   <script type="text/javascript" src="js/xzoom.js"></script>
   <link rel="stylesheet" type="text/css" href="css/xzoom.css" media="all" />
@@ -92,7 +100,7 @@
             <div class="input-group-append">
               <a href=""><button type="button" name="button" class="btn btn-regular search_btn"><i class="fas fa-search"></i></button></a>
             </div>
-            <p class="adv_search"><a href="" class="highlightl">advanced search</a></p>
+            <p class="adv_search"><a href="advancedsearch.php" class="highlightl">advanced search</a></p>
           </div>
 
           <!-- <ul class="navbar-nav mr-auto">

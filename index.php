@@ -12,14 +12,14 @@
         <div class="container text-center">
           <h6 class="border-bottom pb-3"><img src="img/icons/pointer2.png" alt="" width="20px" class="mr-2">Select Your City</h6>
           <div class="row pb-4">
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
-            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="50px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/dharahara.png" alt="" width="80px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/janakpur.png" alt="" width="100px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/lumbini.png" alt="" width="80px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/lalitpur.png" alt="" width="60px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place3.png" alt="" width="80px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place4.png" alt="" width="80px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/g.png" alt="" width="80px"><br><span class="smp2 text-muted">Kathmandu</span></div>
+            <div class="col-md-3 mt-4"><img src="img/icons/place.png" alt="" width="60px"><br><span class="smp2 text-muted">Kathmandu</span></div>
           </div>
         </div>
       </div>
@@ -36,7 +36,6 @@
           <li><a href="#"><i class="fas fa-tshirt  mr-2"></i>Apparel & Accessories</a>
 
             <div class="megadrop">
-
 
               <div class="row px-5">
                 <div class="col-md-4 mt-4">
@@ -835,7 +834,7 @@
             </div>
 
           </li>
-          <li> <a href="#"><i class="far fa-plus-square highlightl mr-2"></i>Others</a>
+          <li> <a href="allcategories.php"><i class="far fa-plus-square highlightl mr-2"></i>Others</a>
 
             <div class="megadrop">
 
@@ -914,13 +913,10 @@
                     <li><a href="" class="smp2">Air Conditioners / AC</a></li>
                     <li><a href="" class="smp2">Water Heaters / Geysers</a></li>
                     <li><a href='#'><span class="highlightl smp2"><i class="far fa-plus-square highlightl"></i> More</span></a>
-
                   </ul>
                 </div>
               </div>
-
             </div>
-
           </li>
         </ul>
       </div>
@@ -2051,7 +2047,7 @@
       <div class="row">
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Cars</p>
+            <img src="img/bech/bCARS.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons2/usedcar.png" alt="" width="50px"><br><span class="smp2">Used Cars</span></div>
@@ -2077,7 +2073,7 @@
         </div>
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Bikes</p>
+            <img src="img/bech/bBIKES.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons/delivery-truck2.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
@@ -2103,7 +2099,7 @@
         </div>
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Real Estate</p>
+            <img src="img/bech/bRealestate.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons/house.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
@@ -2129,7 +2125,7 @@
         </div>
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Jobs</p>
+            <img src="img/bech/B-jobs.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
@@ -2155,7 +2151,7 @@
         </div>
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Services</p>
+            <img src="img/bech/bSERVICES.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
@@ -2181,7 +2177,7 @@
         </div>
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Industries</p>
+            <img src="img/bech/Bindustries.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>
@@ -2258,7 +2254,7 @@
         </div>
         <div class="col-md-4 sponsors text-center">
           <div class="content">
-            <p class="smp2">Bechdena Bazaar</p>
+            <img src="img/bech/Bbazar.png" alt="">
             <div class="row">
               <div class="col-md-4 mt-2">
                 <div class="insidecontent"><img src="img/icons/man.png" alt="" width="30px"><br><span class="smp2">Used Cars</span></div>

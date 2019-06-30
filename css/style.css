@@ -12,6 +12,15 @@
   box-sizing: border-box;
 }
 
+
+.table td, .table th{
+  border: 0 !important;
+}
+
+.text-bold{
+  font-weight: bold !important;
+}
+
 .adv_search {
   position: absolute;
   right: 0;
@@ -37,7 +46,7 @@ a:hover {
 }
 
 .form-check-input {
-  margin-top: .2rem !important;
+  /* margin-top: .2rem !important; */
 }
 
 textarea {
@@ -62,6 +71,10 @@ textarea {
 
 .highlight_bg {
   background-color: #E5842B !important;
+}
+
+.highlight_default{
+  background: rgba(0,53,116,.1);
 }
 
 
@@ -123,7 +136,10 @@ hr {
 }
 
 .spacing{
-  padding: 150px 0 50px;
+ padding-top: 150px;
+ padding-bottom: 50px;
+ padding-left: auto;
+ padding-right: auto;
 }
 
 .smp {
@@ -177,9 +193,9 @@ hr {
 
 .btn-regular {
   font-size: 14px;
-  background-color: #333e48;
-  color: #fff;
-  border-radius: 0;
+  /* background-color: #333e48; */
+  background: #E5842B;
+  border-radius: .25rem;
 }
 
 .bb2 {
@@ -429,7 +445,7 @@ hr {
   margin-top: 140px;
 }
 
-.slider_content .col-md-2 ul li {
+.slider_content .col-md-2 ul li, .slider_content .col-md-3 ul li {
   display: block;
   border-bottom: 1px solid #dee2e6;
 }
@@ -610,6 +626,12 @@ hr {
 .product_img {
   width: 62% !important;
   margin: auto;
+}
+
+.cat_img{
+  width: 24% !important;
+  margin: auto;
+
 }
 
 .brand_img{
@@ -817,8 +839,9 @@ hr {
 /* NEWSLETTER CSS STARTS */
 /* ////////////////////////////////////////////////////////////////////////// */
 .newsletter {
-  background-color: #E5842B;
+  background-color: #003574;
   padding: 10px 0;
+  color: #fff;
 }
 
 .newsletter .input-group>.form-control {
@@ -1102,7 +1125,13 @@ footer .social li {
 }
 
 .product_details .table {
-  width: 500px;
+  width: 50%;
+  float: left;
+  font-size: 14px;
+}
+
+.table-striped tbody tr:nth-of-type(2n+1){
+  background-color: #F8F9FB;
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
@@ -1555,8 +1584,8 @@ footer .social li {
 }
 
 .megadrop .row .col-md-4 h6 {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 14px;
+  /* font-weight: bold; */
 }
 
 .megadrop .row .col-md-4 ul li {
@@ -1652,10 +1681,18 @@ footer .social li {
 .slider_content .menu {
   width: 100%;
 }
+.allcat .menu>li>.megadrop {
+  left: 302px !important;
+  border-left: 1px solid #dee2e6;
+  width: 900px !important;
+}
 
 .slider_content .menu>li>.megadrop {
   left: 194px;
 }
+
+
+
 
 .slider_content .menu>li>a {
   padding: 10px;
@@ -1860,3 +1897,183 @@ input[type=number] {
 /* ////////////////////////////////////////////////////////////////////////// */
 /* ADVANCED SEARCH CSS ENDS */
 /* ////////////////////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCORDION CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+#accordion9 .panel {
+  border-radius: 0;
+  /* margin-bottom: 15px; */
+}
+
+#accordion9 .panel-heading {
+  padding: 0;
+}
+
+#accordion9 .panel-title {
+  position: relative;
+  margin-bottom: 0 !important;
+}
+
+#accordion9 .panel-title:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 34px;
+}
+
+#accordion9 .panel-title a {
+  border-bottom: 1px solid #eee;
+  display: block;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 13px 10px 13px 0;
+  text-transform: uppercase;
+}
+
+#accordion9 .panel-title a.collapsed {
+  color: #333;
+}
+
+#accordion9 .panel-title a:before,
+#accordion9 .panel-title a.collapsed:before {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding: 14px 10px;
+  color: #666 !important;
+  text-align: justify;
+}
+
+#accordion9 .panel-title a.collapsed:before {
+  content: "\f067";
+}
+
+#accordion9 .panel-body {
+  line-height: 26px;
+  text-align: justify;
+  font-size: 14px;
+  /* padding: 10px 20px; */
+  height: 200px;
+  overflow-y: auto;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ACCORDION CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
+
+.product_lists .content{
+  border: 1px solid rgba(0, 47, 52, .2);
+  padding: 12px 20px;
+  border-radius: .25rem;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.product_lists .vendor_col{
+  border-left: 1px solid rgba(0, 47, 52, .2);
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ALLCAT & ALLCAT DETAILS CSS STARTS */
+/* ////////////////////////////////////////////////////////////////////////// */
+  .allcat .col-md-2{
+    cursor: pointer;
+  }
+
+  .allcat_detail .card-product-hover{
+    cursor: pointer;
+  }
+
+  .cat{
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+    padding: 10px;
+  }
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////// */
+/* ALLCAT & ALLCAT DETAILS CSS ENDS */
+/* ////////////////////////////////////////////////////////////////////////// */
+
+.view-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.view-group .img-event {
+  text-align: center;
+}
+
+.view-group .card-body{
+  padding: 0;
+}
+
+.thumbnail
+{
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: .25rem;
+    border: 1px solid rgba(0, 47, 52, .2);
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 30px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    border: 0;
+}
+.item.list-group-item .img-event {
+    float: left;
+    width: 30%;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    width: 100%;
+    margin-bottom: -30px;
+    display: inline-block;
+}
+.item.list-group-item .caption
+{
+    float: left;
+    width: 70%;
+    margin: 0;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item:after
+{
+    clear: both;
+}

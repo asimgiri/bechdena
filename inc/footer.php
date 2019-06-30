@@ -75,6 +75,7 @@
     </div>
   </div>
 
+
   <div class="subfooter">
     <div class="container">
       <div class="row mt-4 mb-2">
@@ -100,10 +101,10 @@
 <script src="js/cbpViewModeSwitch.js"></script>
 <script src="js/classie.js"></script>
 
-
 <script src="js/setup.js"></script>
 <script src="js/totop.min.js"></script>
 <script src="js/script.js"></script>
+
 
 <!-- SPINNER -->
 <script type="text/javascript">
@@ -184,6 +185,33 @@
   inputNumber($('.input-number'));
 </script>
 <!-- SPINNER -->
+
+<script>
+$(document).ready(function() {
+
+  $('#image-gallery').lightSlider({
+      gallery:false,
+      item:1,
+      loop:true,
+      thumbItem:9,
+      slideMargin:0,
+      enableDrag: true,
+      currentPagerPosition:'left',
+      onSliderLoad: function(el) {
+          $('#image-gallery').removeClass('cS-hidden');
+
+          el.lightGallery({
+              selector: '#image-gallery .lslide'
+          });
+      }
+  });
+});
+</script>
+
+
+<script>
+
+</script>
 
 
 </body>
